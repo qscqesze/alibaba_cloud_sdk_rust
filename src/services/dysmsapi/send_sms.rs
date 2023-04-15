@@ -14,7 +14,7 @@ impl Client {
         let mut baseResponse = responses::BaseResponse::default();
         self.DoAction(&mut request.rpcRequest, &mut baseResponse)?;
         response = serde_json::from_slice(&baseResponse.httpContentBytes)?;
-        Ok(response)
+        Ok(())
     }
 }
 
