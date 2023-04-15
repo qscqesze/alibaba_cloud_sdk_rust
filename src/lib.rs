@@ -5,8 +5,9 @@ use services::dysmsapi;
 use gostd::strings;
 
 const AliyunSmsServerRegion: &str = "cn-hangzhou";
+// 这个key已经废弃了，不用试了。
 const AliyunSmsAccessKeyID: &str = "LTAI5tGb3d9kqwfFt16AE9uc";
-const AliyunSmsAccessKeySecret: &str = "CA3yGxmpJES40RpvToJP2q2PCBN4Kx";
+const AliyunSmsAccessKeySecret: &str = "CA3yGxmpJES40RpvToJP2q2PCBN4Kx"; 
 const AliyunSmsReportTempleateCode: &str = "SMS_154950909"; // 通知模版
 const AliyunSmsSignName: &str = "阿里云短信测试"; // 短信署名
 const AliyunSmsTemplateParam: &str = "{\"code\":\"1234\"}";
