@@ -266,20 +266,16 @@ pub fn SetEndpointDataToClient(client: &mut Client) {
 pub fn GetEndpointMap() -> HashMap<String, String> {
     let mut EndpointMap = HashMap::new();
     EndpointMap.insert(
-        "cn-beijing".to_string(),
-        "dysmsapi-proxy.cn-beijing.aliyuncs.com".to_string(),
+        "cn-hangzhou".to_string(),
+        "dm.aliyuncs.com".to_string(),
     );
     EndpointMap.insert(
-        "cn-hongkong".to_string(),
-        "dysmsapi-xman.cn-hongkong.aliyuncs.com".to_string(),
+        "dm.aliyuncs.com".to_string(),
+        "dm.ap-southeast-1.aliyuncs.com".to_string(),
     );
     EndpointMap.insert(
-        "ap-southeast-1".to_string(),
-        "dysmsapi.ap-southeast-1.aliyuncs.com".to_string(),
-    );
-    EndpointMap.insert(
-        "ap-southeast-5".to_string(),
-        "dysmsapi-xman.ap-southeast-5.aliyuncs.com".to_string(),
+        "ap-southeast-2".to_string(),
+        "dm.ap-southeast-2.aliyuncs.com".to_string(),
     );
     EndpointMap
 }
