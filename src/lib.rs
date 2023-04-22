@@ -24,8 +24,8 @@ fn SingleSendMail() -> Result<(), std::io::Error> {
         AliyunSmsAccessKeySecret,
     )?;
     let mut request = dysmsapi::SingleSendMailRequest();
-    request.AccountName = "idlejianghu@surprising.studio".to_string();
-    request.ToAddress = "475517977@qq.com".to_string();
+    request.AccountName = "asdasdasda@asdasda.com".to_string();
+    request.ToAddress = "zzzzz@qq.com".to_string();
     request.Subject = "验证码".to_string();
     request.TextBody = "验证码为123456, 有效期10分钟。".to_string();
     println!("request: {:?}", &request);
