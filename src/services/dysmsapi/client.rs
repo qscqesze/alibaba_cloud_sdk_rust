@@ -270,6 +270,14 @@ pub fn GetEndpointMap() -> HashMap<String, String> {
         "dm.aliyuncs.com".to_string(),
     );
     EndpointMap.insert(
+        "cn-dm-hangzhou".to_string(),
+        "dm.aliyuncs.com".to_string(),
+    );
+    EndpointMap.insert(
+        "cn-dysms-beijing".to_string(),
+        "dysmsapi-proxy.cn-beijing.aliyuncs.com".to_string(),
+    );
+    EndpointMap.insert(
         "dm.aliyuncs.com".to_string(),
         "dm.ap-southeast-1.aliyuncs.com".to_string(),
     );
